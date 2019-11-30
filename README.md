@@ -12,7 +12,7 @@ Config files from older versions are different.**
 6. Create another file 'wpa_supplicant.conf' (e.g. Terminal: 'touch wpa_supplicant.conf')
 7. With the use of your preferred texteditor (e.g. nano), edit the file 'wpa_supplicant.conf'
 
-`
+```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 country=DE
 update_config=1
@@ -22,7 +22,8 @@ network={
     psk="Password of the WiFi Network"
     key_mgmt=WPA-PSK
 }
-`
+```
+
 Edit: 
 - country=YOUR_ISO_COUNTRY_CODE -- can be found on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1)
 - ssid=
