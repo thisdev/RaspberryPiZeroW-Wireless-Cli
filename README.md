@@ -2,7 +2,7 @@
 This repository contains all it needs to prepare a Raspberry Pi Zero W so that it can be accessed via SSH over Wifi without a screen.
 
 **The following instructions are for Raspberry Pi OS Buster versions only. 
-Config files from older and newer versions are different. **
+Config files from older and newer versions are different.**
 
 *Important UPDATE: Doesn't work anymore from Raspberry Pi OS Bullsye on, because the user "pi" is no longer installed by default and therefore no access via SSH works. Temporary solution: For this, the "[Raspberry Pi Imager](https://www.raspberrypi.com/software/)" must be installed - This allows the configuration of a user when writing the image to an SD card.*
 
